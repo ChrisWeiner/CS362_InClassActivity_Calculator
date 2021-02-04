@@ -41,5 +41,5 @@ class TestCaseDivision(unittest.TestCase):
     def test4(self): #Will fail on purpose per the return value of division not being zero due to "y" being zero
         self.assertEqual(CW_Calculator_NoInput.division(1,0),0)
 
-if __name__ == "__main__":
+if __name__ == "__main__": #Using this line from the unittest lecture to display the number of failures in the test
     unittest.main(verbosity=2)
