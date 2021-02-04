@@ -15,15 +15,18 @@ def division(x,y):
         return x/y
 try:
     print("Enter the first number: ")
-    x = float(input())
+    input1 = input()
+    x = float(input1)
     print("Enter the second number: ")
-    y = float(input())
+    input2 = input()
+    y = float(input2)
     print("1. Addition")
     print("2. Subtraction")
     print("3. Multiplication")
     print("4. Division")
     print("Enter the number of the operation")
-    operation = float(input())
+    input3 = input()
+    operation = float(input3)
     if(operation == 1):
         result = addition(x,y)
         print("Result: " + str(result))
